@@ -16,7 +16,7 @@ export default function Main() {
       
       setPokemons(data.results);
       
-      console.log(data.results);
+      
     };
     fetchData();
   }, []);
@@ -59,6 +59,7 @@ export default function Main() {
           </button>
         </div>
         {url&&<Meme url={url} name={name} top={top} bottom={bottom} altUrl ={altUrl}/>}
+        
       </main>
     </>
   );
