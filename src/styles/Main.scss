@@ -1,0 +1,39 @@
+.form{
+    display: grid;
+    grid-template: 50px 80px / 1fr 1fr;
+    gap:17px;
+    //align-items: center;
+    position: relative;
+}
+input[type="text"]{
+    border-radius: 7px;
+    font-size: 32px;
+    text-indent: 10px;
+    border-color: black;
+}
+
+
+.btn{
+    background: rgb(2,0,36);
+    background-color: rgba(121,9,118,1);
+    border-radius: 9px;
+    grid-column: 1/-1;;
+    color: white;
+    width: 60vw;
+    top:60px;
+    left: 20vw;
+    position: absolute;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgba(121,9,118,1);
+    background-color: rgb(2,0,36);
+    scale:1.03;
+}
+
+.main{
+
+    padding:10px;
+}
